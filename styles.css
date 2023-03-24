@@ -1,0 +1,573 @@
+body{
+    background-color: #6900FF;
+    color: #FCFDF2;
+    text-align: center;
+    margin: 0;
+}
+
+
+/**************************************Media Section*************************************/
+
+@media (max-width : 1500px) {
+    .tbutton{
+        display: none;
+    }
+}
+
+/******************************************/
+
+@media (max-width : 600px) {
+    
+/*******top*******/
+
+    body .nav-item{
+        text-align: center;
+        padding-left: 0;
+    }
+
+
+    body #about{
+        width: 400px;
+        height: 800px;
+    }
+
+    body .aboutme{
+        float: none;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+    }
+
+    body .top{
+        float: none;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    body .deviceimg{
+        width: 400px;
+    }
+
+
+/*********skills**********/
+
+    body .block{
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    body .blocks{
+        float: none;
+    }
+
+    body .block1 {
+        margin: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+        border-bottom: 2px solid #ffff;
+    }
+
+    body .block2 {
+        margin: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+        border-bottom: 2px solid #ffff;
+    }
+
+    body .block3 {
+        margin: auto;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+/********projects********/
+
+body #projects{
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+body .probox{
+    float: none;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+body .proj{
+    width: auto;
+    padding-bottom: 30px;
+}
+
+body .projlinks{
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+/**********bottom**********/
+
+    body .social{
+        width: auto;
+        margin: auto;
+    }
+
+    body #contacts{
+        width: auto;
+        height: auto;
+    }
+
+    body .cvlink{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
+
+/******************************************/
+
+@media (min-width : 601px) and (max-width : 1425px){
+
+/**********top***********/
+    body .nav-item{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    body #about{
+        width: auto;
+    }
+
+    body .top{
+        float: none;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    body .aboutme{
+        width: auto;
+        float: none;
+        margin: auto;
+        text-align: center;
+        padding: 100px;
+        padding-top: 50px;
+    }
+
+    body .deviceimg{
+        width: 550px;
+        padding-top: 50px;
+    }
+
+/*********skills*********/
+
+    body .block{
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    body .blocks{
+        float: none;
+    }
+
+    body .block1 {
+        margin: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+        border-bottom: 2px solid #ffff;
+    }
+
+    body .block2 {
+        margin: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+        border-bottom: 2px solid #ffff;
+    }
+
+    body .block3 {
+        margin: auto;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+/**********projects***********/
+
+body #projects{
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+body .probox{
+    float: none;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+body .proj{
+    width: auto;
+    padding-bottom: 30px;
+}
+
+body .projlinks{
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+/**********bottom***********/
+
+    body .social{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+/******************************************/
+
+@media (min-width : 992px) and (max-width : 1425px){
+
+    body .nav-item{
+        padding-left: 50px;
+    }
+
+    body .block{
+        width: 950px;
+        height: 1100px;
+    }
+
+    body .blocks{
+        float: left;
+    }
+
+    body .block1{
+        margin-right: 150px;
+    }
+
+    body .block3{
+        margin-top: 25px;
+        margin-left: 272px;
+    }
+
+}
+
+
+
+
+
+
+/*******************************Navbar section******************************/
+
+#navbar{
+    padding-bottom: 50px;
+}
+
+.nav-item{
+    padding-left: 120px;
+}
+
+.navbar{
+    background-color: #FFE9B1;
+}
+
+.nav-link{
+    color: #6900FF;
+    font-weight: bold;
+}
+
+.nav-item :hover{
+    color: #3B3486;
+}
+
+
+/****************************about section*************************************/
+
+#about{
+    width: 1000px;
+    height: 675px;
+    margin: auto;
+}
+
+.top{
+    margin-top: 100px;
+    width: 300px;
+    float: left;
+}
+
+.heading{
+    padding-bottom: 50px;
+}
+
+.aboutme{
+    float: left;
+    width: 700px;
+    margin-top: 275px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.dpbox{
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #9951FF;
+}
+
+.dp{
+    width: 200px;
+}
+
+
+/*****************************skills section ************************************/
+
+#skills{
+    background-color: #FCFDF2;
+}
+
+.deviceimg{
+    width: 700px;
+}
+
+.block{
+    border-radius: 20px;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+}
+
+.icons{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #6900FF;
+}
+
+.skillicon{
+    padding-top: 20px;
+    width: 60px;
+}
+
+.blockhead{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.blocks{
+    background-color: #FFE9B1;
+    color: #3B3486;
+    width: 400px;
+    height: 525px;
+    float: left;
+    padding-top: 75px;
+}
+
+.block1{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: solid 2px white;
+}
+
+.block2{
+    text-align: center;
+    border-right: solid 2px white;
+}
+
+.block3{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pskill{
+    font-size: 20px;
+}
+
+.skillhead{
+    color: #3B3486;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/***************************************project section***********************************/
+
+#projects{
+    margin: auto;
+    display: block;
+    width: 1410px;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.probox{
+    float: left;
+    width: 450px;
+    height: 330px;
+    margin: 10px;
+    background-color: #FFE9B1;
+    color: #3B3486;
+    border-radius: 15px;
+}
+
+.projimg{
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    opacity: 70%;
+}
+
+.projdetail{
+    padding-top: 50px;
+}
+
+.projlinks{
+    width: 300px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.projimg{
+    display: none;
+}
+
+.proj{
+    margin: auto;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.projhead{
+    padding-bottom: 10px;
+}
+
+.projheader{
+    margin: auto;
+    width: 400px;
+    height: 100px;
+}
+
+.projgit{
+    width: 100px;
+    height: 50px;
+    border-radius: 500px;
+    margin-right: 50px ;
+
+    background-color: #6900FF;
+    color: white;
+    border: none;
+}
+
+.projweb{
+    width: 100px;
+    height: 50px;
+    border-radius: 500px;
+
+    background-color: #3B3486;
+    color: white;
+    border: none;
+}
+
+.comingsoon{
+    display: none;
+}
+
+.pcomingsoon{
+    padding: 125px;
+    font-size: 30px;
+}
+
+.projweb :hover{
+    color: #3B3486;
+    background-color: white;
+}
+
+/***************************************contact section************************************/
+
+#contact{
+    background-color: #FFE9B1;
+    color: #3B3486;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.social{
+    margin: auto;
+    width: 1000px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.sociallink{
+    margin-left: 10px;
+}
+
+.socialimg{
+    border-radius: 10px;
+    width: 50px;
+}
+
+.social :hover{
+    background-color: white;
+}
+
+.pcontact{
+    margin: 0;
+}
+
+.cvlink{
+    padding-right: 20px;
+}
+
+.copyright{
+    padding-top: 50px;
+}
+
+/***********************************button************************************/
+
+.tbutton{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 3000px;
+    right: 0;
+}
+
+.upbutton{
+    position: relative;
+    bottom: 70px;
+
+    background-color: #FFE9B1;
+    color: #6900FF;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.buttonbg{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #6900FF;
+}
+
+.tbutton :hover{
+    color: #3B3486;
+}
+
+/*************************************************************************************/
+
