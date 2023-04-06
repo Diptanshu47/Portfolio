@@ -3,268 +3,8 @@ body{
     color: #FCFDF2;
     text-align: center;
     margin: 0;
+    font-family: 'Mulish', sans-serif;
 }
-
-
-/**************************************Media Section*************************************/
-
-@media (max-width : 1500px) {
-    .tbutton{
-        display: none;
-    }
-}
-
-/******************************************/
-
-@media (max-width : 600px) {
-    
-/*******top*******/
-
-    body .nav-item{
-        text-align: center;
-        padding-left: 0;
-    }
-
-
-    body #about{
-        width: 400px;
-        height: 800px;
-    }
-
-    body .aboutme{
-        float: none;
-        margin: auto;
-        width: 350px;
-        text-align: center;
-    }
-
-    body .top{
-        float: none;
-        margin: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    body .deviceimg{
-        width: 400px;
-    }
-
-
-/*********skills**********/
-
-    body .block{
-        width: auto;
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    body .blocks{
-        float: none;
-    }
-
-    body .block1 {
-        margin: auto;
-        border-top-left-radius: 0;
-        border-bottom-left-radius:0;
-        border-bottom: 2px solid #ffff;
-    }
-
-    body .block2 {
-        margin: auto;
-        border-top-left-radius: 0;
-        border-bottom-left-radius:0;
-        border-bottom: 2px solid #ffff;
-    }
-
-    body .block3 {
-        margin: auto;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-/********projects********/
-
-body #projects{
-    text-align: center;
-    margin: auto;
-    width: auto;
-    height: auto;
-}
-
-body .probox{
-    float: none;
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-body .proj{
-    width: auto;
-    padding-bottom: 30px;
-}
-
-body .projlinks{
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-}
-
-/**********bottom**********/
-
-    body .social{
-        width: auto;
-        margin: auto;
-    }
-
-    body #contacts{
-        width: auto;
-        height: auto;
-    }
-
-    body .cvlink{
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-}
-
-
-/******************************************/
-
-@media (min-width : 601px) and (max-width : 1425px){
-
-/**********top***********/
-    body .nav-item{
-        text-align: center;
-        padding-left: 0;
-    }
-
-    body #about{
-        width: auto;
-    }
-
-    body .top{
-        float: none;
-        margin: auto;
-        padding-top: 50px;
-    }
-
-    body .aboutme{
-        width: auto;
-        float: none;
-        margin: auto;
-        text-align: center;
-        padding: 100px;
-        padding-top: 50px;
-    }
-
-    body .deviceimg{
-        width: 550px;
-        padding-top: 50px;
-    }
-
-/*********skills*********/
-
-    body .block{
-        width: auto;
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    body .blocks{
-        float: none;
-    }
-
-    body .block1 {
-        margin: auto;
-        border-top-left-radius: 0;
-        border-bottom-left-radius:0;
-        border-bottom: 2px solid #ffff;
-    }
-
-    body .block2 {
-        margin: auto;
-        border-top-left-radius: 0;
-        border-bottom-left-radius:0;
-        border-bottom: 2px solid #ffff;
-    }
-
-    body .block3 {
-        margin: auto;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-/**********projects***********/
-
-body #projects{
-    text-align: center;
-    margin: auto;
-    width: auto;
-    height: auto;
-}
-
-body .probox{
-    float: none;
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-body .proj{
-    width: auto;
-    padding-bottom: 30px;
-}
-
-body .projlinks{
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-}
-
-/**********bottom***********/
-
-    body .social{
-        width: auto;
-        height: auto;
-    }
-
-}
-
-/******************************************/
-
-@media (min-width : 992px) and (max-width : 1425px){
-
-    body .nav-item{
-        padding-left: 50px;
-    }
-
-    body .block{
-        width: 950px;
-        height: 1100px;
-    }
-
-    body .blocks{
-        float: left;
-    }
-
-    body .block1{
-        margin-right: 150px;
-    }
-
-    body .block3{
-        margin-top: 25px;
-        margin-left: 272px;
-    }
-
-}
-
-
-
-
-
 
 /*******************************Navbar section******************************/
 
@@ -292,29 +32,45 @@ body .projlinks{
 
 /****************************about section*************************************/
 
+h1{
+    color: #FFE9B1;
+    font-family: 'Galada', cursive;
+    font-size: 45px;
+}
+
+
 #about{
-    width: 1000px;
-    height: 675px;
+    width: 80%;
+    height: 80%;
     margin: auto;
+    overflow: hidden;
+    padding-top: 110px;
+    padding-bottom: 150px;
 }
 
 .top{
-    margin-top: 100px;
-    width: 300px;
+    width: auto;
+    height: auto;
     float: left;
 }
 
-.heading{
-    padding-bottom: 50px;
+.topsection{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    margin-left: 12%;
+    overflow: hidden;
 }
 
 .aboutme{
-    float: left;
-    width: 700px;
-    margin-top: 275px;
-    line-height: 30px;
+    width: 65%;
     font-size: 20px;
+    line-height: 30px;
     text-align: left;
+    margin: auto;
+    float: left;
+    margin-top: 165px;
+    margin-left: 20px;
 }
 
 .dpbox{
@@ -322,6 +78,8 @@ body .projlinks{
     width: 200px;
     border-radius: 50%;
     background-color: #9951FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .dp{
@@ -333,6 +91,7 @@ body .projlinks{
 
 #skills{
     background-color: #FCFDF2;
+    padding-bottom: 100px;
 }
 
 .deviceimg{
@@ -341,22 +100,31 @@ body .projlinks{
 
 .block{
     border-radius: 20px;
-    width: 1200px;
-    height: 600px;
+    width: 75%;
+    height: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 .icons{
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background-color: #6900FF;
 }
 
 .skillicon{
-    padding-top: 20px;
-    width: 60px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.skill2{
+    padding-top: 12px;
+}
+
+.skill3{
+    padding-top: 12px;
 }
 
 .blockhead{
@@ -367,8 +135,8 @@ body .projlinks{
 .blocks{
     background-color: #FFE9B1;
     color: #3B3486;
-    width: 400px;
-    height: 525px;
+    width: 33.3%;
+    height: 575px;
     float: left;
     padding-top: 75px;
 }
@@ -404,57 +172,58 @@ body .projlinks{
 
 #projects{
     margin: auto;
-    display: block;
-    width: 1410px;
-    height: 800px;
+    width: 90%;
     margin-top: 100px;
 }
 
 .probox{
     float: left;
-    width: 450px;
-    height: 330px;
-    margin: 10px;
+    width: 32%;
+    height: auto;
+    margin: 0.5%;
     background-color: #FFE9B1;
     color: #3B3486;
     border-radius: 15px;
 }
 
-.projimg{
+.row{
     margin: auto;
-    width: 450px;
-    height: 250px;
-    opacity: 70%;
+}
+
+.pro1title{
+    font-weight: bolder;
+    color:#3B3486;
+    padding-bottom: 15px;
+}
+
+b{
+    color: #6900FF;
 }
 
 .projdetail{
-    padding-top: 50px;
+    padding-top: 10%;
 }
 
 .projlinks{
-    width: 300px;
+    width: 75%;
     margin: auto;
     padding-top: 25px;
-}
-
-.projimg{
-    display: none;
+    padding-bottom: 35px;
 }
 
 .proj{
     margin: auto;
-    width: 500px;
+    width: 50%;
     margin-top: 50px;
 }
 
 .projhead{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .projheader{
     margin: auto;
-    width: 400px;
-    height: 100px;
+    margin-bottom: 15px;
 }
 
 .projgit{
@@ -462,7 +231,6 @@ body .projlinks{
     height: 50px;
     border-radius: 500px;
     margin-right: 50px ;
-
     background-color: #6900FF;
     color: white;
     border: none;
@@ -472,7 +240,6 @@ body .projlinks{
     width: 100px;
     height: 50px;
     border-radius: 500px;
-
     background-color: #3B3486;
     color: white;
     border: none;
@@ -483,7 +250,7 @@ body .projlinks{
 }
 
 .pcomingsoon{
-    padding: 125px;
+    padding: 30%;
     font-size: 30px;
 }
 
@@ -504,7 +271,7 @@ body .projlinks{
 
 .social{
     margin: auto;
-    width: 1000px;
+    width: 75%;
     padding-top: 25px;
     padding-bottom: 70px;
     margin-bottom: 25px;
@@ -512,6 +279,10 @@ body .projlinks{
 
 .sociallink{
     margin-left: 10px;
+}
+
+.firstlink{
+    margin-left: 0;
 }
 
 .socialimg{
@@ -569,5 +340,377 @@ body .projlinks{
     color: #3B3486;
 }
 
-/*************************************************************************************/
 
+
+
+
+/***********************************Mobile Resolution*************************************/
+
+@media (min-device-width : 250px) and (max-device-width : 768px){
+
+    #about{
+        width: 100%;
+        height: 100%;
+    }
+
+    .top{
+        float: none;
+    }
+
+    .topsection{
+        margin:auto;
+    }
+
+    .aboutme{
+        width: 80%;
+        height: 80%;
+        float: none;
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h5{
+        font-size: 30px;
+    }
+
+    .dp{
+        width: 350px;
+    }
+
+    .dpbox{
+        width: 350px;
+    }
+
+    
+    .deviceimg{
+        margin-top: 50px;
+        width: 900px;
+    }
+
+    /***************/
+
+    .pcontact{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .social{
+        width: auto;
+    }
+
+    .socialimg{
+        width: 100px;
+    }
+
+    .sociallink{
+        margin-left: 25px ;
+    }
+
+    .cvlink{
+        font-size: 25px;
+    }
+
+    .copyright{
+        font-size: 25px;
+    }
+
+    /*****************/
+
+    .block{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-bottom: solid 4px white;
+    }
+
+    .skillhead{
+        font-size: 55px;
+    }
+
+    .blockhead{
+        font-size: 50px;
+    }
+
+    .pskill{
+        font-size: 40px;
+    }
+
+    .block1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .block2{
+        order: -1;
+    }
+    
+    .block3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+ 
+    .icons{
+        width: 110px;
+        height: 110px;
+    }
+
+    .skillicon{
+        width: 90px;
+    }
+
+    .skill1{
+        padding-top: 5px;
+    }
+
+    /************************/
+
+    #projects{
+        width: 80%;
+    }
+
+    .probox{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    b{
+        font-size: 30px;
+    }
+
+    .pcomingsoon{
+        font-size: 45px;
+    }
+
+    .proj{
+        width: 85%;
+        font-size: 35px;
+        margin-bottom: 100px;
+    }
+
+    .projlinks{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .projhead{
+        font-size: 55px;
+    }
+
+    .pro1title{
+        font-size: 50px;
+    }
+
+    .projheader{
+        margin-bottom: 50px;
+        font-size: 35px;
+
+    }
+
+    .projgit{
+        font-size: 25px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .projweb{
+        font-size: 25px;
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+
+/********************************Tab Resolution*****************************/
+
+@media (min-device-width : 769px) and (max-device-width : 1080px){
+
+    #about{
+        width: 80%;
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .topsection{
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .aboutme{
+        width: 60%;
+        height: 60%;
+        text-align: left;
+        margin: auto;
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 25px;
+        margin-top: 100px;
+    }
+
+    .dpbox{
+        margin-top: 25px;
+    }
+
+    .deviceimg{
+        width: 850px;
+    }
+
+    /**********************/
+
+    .pcontact{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .social{
+        width: auto;
+    }
+
+    .socialimg{
+        width: 60px;
+    }
+
+    .sociallink{
+        margin-left: 20px ;
+    }
+
+    .firstlink{
+        margin-left: 0;
+    }
+
+    .cvlink{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 20px;
+    }
+
+    /**********************/
+
+    .block{
+        width: 75%;
+    }
+
+    .blocks{
+        width: 50%;
+    }
+
+    .block3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 75px;
+        border-top: solid 4px white;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .block1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    /**********************/
+
+    .probox{
+        width: 45%;
+        margin: 20px auto;
+    }
+
+}
+
+
+/*************************************Others************************************************/
+
+
+@media (min-device-width : 150px) and (max-device-width : 1350px){
+
+    .tbutton{
+        display: none;
+    }
+
+}
+
+
+@media (min-device-width : 1081px) and (max-device-width : 1265px){
+
+    .block{
+        width: 90%;
+    }
+
+
+    .probox{
+        width: 45%;
+        margin: 25px auto;
+    }
+
+}
+
+@media (min-device-width : 1024px) and (max-device-width : 1200px){
+    
+    .topsection{
+        width: 100%;
+        margin: auto;
+    }
+
+    .aboutme{
+        padding-top: 2%;
+    }
+
+}
+
+
+/********************************Nav-Bars Media*********************************************/
+
+@media (min-device-width : 769px) and (max-device-width : 991px){
+
+    .navbar-toggler{
+        margin-left: 25px;
+    }
+
+    .navbar-toggler-icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-item{
+        padding: 0;
+        font-size: 25px;    
+    }
+
+}
+
+@media (min-device-width : 250px) and (max-device-width : 768px){
+
+    .navbar-toggler{
+        margin-left: 20px;
+    }
+    
+    .nav-item{
+        padding: 0;
+        font-size: 35px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+}
+
+                            /**************************/
