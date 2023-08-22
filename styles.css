@@ -1,0 +1,708 @@
+body{
+    background-color: #6900FF;
+    color: #FCFDF2;
+    text-align: center;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/*******************************Navbar section******************************/
+
+#navbar{
+    padding-bottom: 50px;
+}
+
+.nav-item{
+    padding-left: 120px;
+}
+
+.navbar{
+    background-color: #FFE9B1;
+}
+
+.nav-link{
+    color: #6900FF;
+    font-weight: bold;
+}
+
+.nav-item :hover{
+    color: #3B3486;
+}
+
+
+/****************************about section*************************************/
+
+h1{
+    color: #FFE9B1;
+    font-family: 'Galada', cursive;
+    font-size: 45px;
+}
+
+
+#about{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 110px;
+    padding-bottom: 150px;
+}
+
+.top{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.topsection{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    margin-left: 12%;
+    overflow: hidden;
+}
+
+.aboutme{
+    width: 68%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin: auto;
+    float: left;
+    margin-top: 145px;
+    margin-left: 20px;
+}
+
+.dpbox{
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #9951FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dp{
+    width: 200px;
+}
+
+
+/*****************************skills section ************************************/
+
+#skills{
+    background-color: #FCFDF2;
+    padding-bottom: 100px;
+}
+
+.deviceimg{
+    width: 700px;
+}
+
+.block{
+    border-radius: 20px;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.icons{
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #6900FF;
+}
+
+.skillicon{
+    padding-top: 10px;
+    width: 50px;
+}
+
+.skill2{
+    padding-top: 12px;
+}
+
+.skill3{
+    padding-top: 12px;
+}
+
+.blockhead{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.blocks{
+    background-color: #FFE9B1;
+    color: #3B3486;
+    width: 33.3%;
+    height: 575px;
+    float: left;
+    padding-top: 75px;
+}
+
+.block1{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: solid 2px white;
+}
+
+.block2{
+    text-align: center;
+    border-right: solid 2px white;
+}
+
+.block3{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pskill{
+    font-size: 20px;
+}
+
+.skillhead{
+    color: #3B3486;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/***************************************project section***********************************/
+
+#projects{
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.probox{
+    float: left;
+    width: 32%;
+    height: auto;
+    margin: 0.5%;
+    background-color: #FFE9B1;
+    color: #3B3486;
+    border-radius: 15px;
+}
+
+.row{
+    margin: auto;
+}
+
+.pro1title{
+    font-weight: bolder;
+    color:#3B3486;
+    padding-bottom: 15px;
+}
+
+b{
+    color: #6900FF;
+}
+
+.projdetail{
+    padding-top: 10%;
+}
+
+.projlinks{
+    width: 75%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.proj{
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.projhead{
+    padding-bottom: 15px;
+}
+
+.projheader{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.projgit{
+    width: 100px;
+    height: 50px;
+    border-radius: 500px;
+    margin-right: 50px ;
+    background-color: #6900FF;
+    color: white;
+    border: none;
+}
+
+.projweb{
+    width: 100px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: #3B3486;
+    color: white;
+    border: none;
+}
+
+.projweb :hover{
+    color: #3B3486;
+    background-color: white;
+}
+
+.projheader p{
+    margin: auto 2.5%;
+}
+
+/***************************************contact section************************************/
+
+#contact{
+    background-color: #FFE9B1;
+    color: #3B3486;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.social{
+    margin: auto;
+    width: 75%;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.sociallink{
+    margin-left: 10px;
+}
+
+.firstlink{
+    margin-left: 0;
+}
+
+.socialimg{
+    border-radius: 10px;
+    width: 50px;
+}
+
+.social :hover{
+    background-color: white;
+}
+
+.pcontact{
+    margin: 0;
+}
+
+.cvlink{
+    padding-right: 20px;
+}
+
+.copyright{
+    padding-top: 50px;
+}
+
+/***********************************button************************************/
+
+.tbutton{
+    background-color: #6900FF;
+    border-radius: 50%;
+    width: 78px;
+    height: 75px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: -380%;  
+    right: 2.5%;
+}
+
+.upbutton{
+    bottom: 70px;
+    background-color: #FFE9B1;
+    color: #6900FF;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.buttonbg{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #6900FF;
+}
+
+.tbutton :hover{
+    color: #3B3486;
+}
+
+
+
+
+
+/***********************************Mobile Resolution*************************************/
+
+@media (min-device-width : 250px) and (max-device-width : 768px){
+
+    #about{
+        width: 100%;
+        height: 100%;
+    }
+
+    .top{
+        float: none;
+    }
+
+    .topsection{
+        margin:auto;
+    }
+
+    .aboutme{
+        width: 80%;
+        height: 80%;
+        float: none;
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h5{
+        font-size: 30px;
+    }
+
+    .dp{
+        width: 350px;
+    }
+
+    .dpbox{
+        width: 350px;
+    }
+
+    
+    .deviceimg{
+        margin-top: 50px;
+        width: 900px;
+    }
+
+    /***************/
+
+    .pcontact{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .social{
+        width: auto;
+    }
+
+    .socialimg{
+        width: 100px;
+    }
+
+    .sociallink{
+        margin-left: 25px ;
+    }
+
+    .cvlink{
+        font-size: 25px;
+    }
+
+    .copyright{
+        font-size: 25px;
+    }
+
+    /*****************/
+
+    .block{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-bottom: solid 4px white;
+    }
+
+    .skillhead{
+        font-size: 55px;
+    }
+
+    .blockhead{
+        font-size: 50px;
+    }
+
+    .pskill{
+        font-size: 40px;
+    }
+
+    .block1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .block2{
+        order: -1;
+    }
+    
+    .block3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+ 
+    .icons{
+        width: 110px;
+        height: 110px;
+    }
+
+    .skillicon{
+        width: 90px;
+    }
+
+    .skill1{
+        padding-top: 5px;
+    }
+
+    /************************/
+
+    #projects{
+        width: 80%;
+    }
+
+    .probox{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    b{
+        font-size: 30px;
+    }
+
+    .proj{
+        width: 85%;
+        font-size: 35px;
+        margin-bottom: 100px;
+    }
+
+    .projlinks{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .projhead{
+        font-size: 55px;
+    }
+
+    .pro1title{
+        font-size: 50px;
+    }
+
+    .projheader{
+        margin-bottom: 50px;
+        font-size: 35px;
+
+    }
+
+    .projgit{
+        font-size: 25px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .projweb{
+        font-size: 25px;
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+
+/********************************Tab Resolution*****************************/
+
+@media (min-device-width : 769px) and (max-device-width : 1080px){
+
+    #about{
+        width: 80%;
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .topsection{
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .aboutme{
+        width: 60%;
+        height: 60%;
+        text-align: left;
+        margin: auto;
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 25px;
+        margin-top: 100px;
+    }
+
+    .dpbox{
+        margin-top: 25px;
+    }
+
+    .deviceimg{
+        width: 850px;
+    }
+
+    /**********************/
+
+    .pcontact{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .social{
+        width: auto;
+    }
+
+    .socialimg{
+        width: 60px;
+    }
+
+    .sociallink{
+        margin-left: 20px ;
+    }
+
+    .firstlink{
+        margin-left: 0;
+    }
+
+    .cvlink{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 20px;
+    }
+
+    /**********************/
+
+    .block{
+        width: 75%;
+    }
+
+    .blocks{
+        width: 50%;
+    }
+
+    .block3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 75px;
+        border-top: solid 4px white;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .block1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    /**********************/
+
+    .probox{
+        width: 45%;
+        margin: 20px auto;
+    }
+
+}
+
+
+/*************************************Others************************************************/
+
+
+@media (min-device-width : 150px) and (max-device-width : 1350px){
+
+    .tbutton{
+        display: none;
+    }
+
+}
+
+
+@media (min-device-width : 1081px) and (max-device-width : 1265px){
+
+    .block{
+        width: 90%;
+    }
+
+
+    .probox{
+        width: 45%;
+        margin: 25px auto;
+    }
+
+}
+
+@media (min-device-width : 1024px) and (max-device-width : 1200px){
+    
+    .topsection{
+        width: 100%;
+        margin: auto;
+    }
+
+    .aboutme{
+        padding-top: 2%;
+    }
+
+}
+
+
+/********************************Nav-Bars Media*********************************************/
+
+@media (min-device-width : 769px) and (max-device-width : 991px){
+
+    .navbar-toggler{
+        margin-left: 25px;
+    }
+
+    .navbar-toggler-icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-item{
+        padding: 0;
+        font-size: 25px;    
+    }
+
+}
+
+@media (min-device-width : 250px) and (max-device-width : 768px){
+
+    .navbar-toggler{
+        margin-left: 20px;
+    }
+    
+    .nav-item{
+        padding: 0;
+        font-size: 35px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+}
+
+                            /**************************/
